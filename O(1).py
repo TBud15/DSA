@@ -1,14 +1,9 @@
-array = [0,1,2,3,4]
+def constant_time_operation(item):
+    # Perform a simple operation, like returning the first element
+    # of a list, which takes constant time.
+    return item[0]
 
-# retrieve the number found at index location 3 
-print(array[3]) 
-
-
-
-
-
-# Example of O(n)
-array = [0,1,2,3,4,5,6,7,8,9,10]
-
-if 5 in array:
-    print("five is still alive")
+# Example usage:
+my_list = [1, 2, 3, 4, 5]
+result = constant_time_operation(my_list)
+print(result)  # This will print 1, the first element of the list
