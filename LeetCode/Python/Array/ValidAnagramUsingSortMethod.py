@@ -4,6 +4,3 @@ class Solution:
         if sorted(s) == sorted(t):
             return True
         return False
-    
-
-#Not using python sort function
